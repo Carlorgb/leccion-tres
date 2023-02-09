@@ -23,7 +23,10 @@ menu = { "hamburguesa": {
     "ingredientes": ["pan" ,"tomate " , "carne" , "lechuga" ] ,
     "precio" : 1500
     }
-    "tacos" : ""
+    "tacos" :{ "ingredientes" : ["repollo" , "carne" , "salsa"],
+    "precio": 700
+    }
 } 
 
 print (menu ["hamburguesa"] ["ingredientes"][2])
+print ()
